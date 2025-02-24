@@ -46,35 +46,7 @@ The project is organized into several layers:
 - Snowflake client (SnowSQL or Snowflake web interface)
 - Access to Snowsight for dashboard creation
 
-### Setup
 
-1. Clone this repository:
 
-    ```bash
-    git clone https://github.com/mehdi-touil/End-to-End-Cricket-Analytics-Data-Engineering-Project
-    ```
-
-2. Execute the SQL scripts in each layer (Land, RAW, Clean, Consumption) in the correct order to create tables, streams, tasks, and views.
-
-3. Load data into the Land Layer using tasks or other data loading methods.
-
-4. Run the tasks in the RAW Layer to move data from the Land Layer to the RAW Layer.
-
-5. Run subsequent tasks for cleaning and transforming data in the Clean Layer.
-
-6. Finally, execute the tasks in the Consumption Layer to create the final tables and views for analytics.
-
-7. Use Snowsight to access the dashboard and visualize the cricket analytics.
-
-## Folder Structure
-
-- `Json Cricket files/`: Contains our Json Files.
-- `Sql Worksheet/`: Contains the SQL scripts used in all layers.
-- `dashboard/`: Includes Screenshots and Sql Scripts related to the dashboard creation using Snowsight.
-
-## Additional Notes
-
-- Customize the SQL scripts based on your specific project requirements.
-- Ensure proper access control and permissions are set in Snowflake.
-- Refer to Snowflake documentation for detailed information on SnowSQL, Snowsight, and other Snowflake features.
+.
 
